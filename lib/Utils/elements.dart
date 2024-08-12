@@ -46,7 +46,7 @@ class MyBox extends StatelessWidget {
     return Container(
       alignment: AlignmentDirectional.center,
       margin: const EdgeInsets.all(1.0),
-      width: 100.0,
+      width: double.infinity,
       //height: 100.0,
       decoration: BoxDecoration(
           color: Colors.cyan,
@@ -56,7 +56,7 @@ class MyBox extends StatelessWidget {
           )),
       child: Text(
         text,
-        style: TextStyle(fontSize: 30.0, color: Colors.white),
+        style: TextStyle(fontSize: 20, color: Colors.white),
       ),
     );
   }
